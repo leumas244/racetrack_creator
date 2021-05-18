@@ -1,0 +1,790 @@
+<?xml version="1.0" ?><!DOCTYPE X3D  PUBLIC 'ISO//Web3D//DTD X3D 3.3//EN'  'http://www.web3d.org/specifications/x3d-3.3.dtd'><X3D xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" profile="Immersive" version="3.3" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.3.xsd">
+    <head>
+    </head>
+    <Scene>
+        <Background groundAngle="0.9 1.5 1.57" groundColor="0 0.8 0 0.174249 0.82 0.187362 0.467223 0.82 0.445801 0.621997 0.67 0.600279" skyAngle="0.1 1.2 1.57" skyColor="0.76238 0.8 0.1427 0.277798 0.219779 0.7 0.222549 0.390234 0.7 0.60094 0.662637 0.69">
+        </Background>
+
+    <Transform DEF="Strecke 0" scale="0.0 1 0.0" rotation="0 1 0 -0.0" translation="32.0 0 24.0" center="0 0 -20">
+    <Transform DEF="Plane" translation="0 0 -10.0034" scale="5 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.2 0.2 0.2">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungR" translation="4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungR_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungR_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungL" translation="-4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungL_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungL_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_004" translation="4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_004_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_004_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_005" translation="-4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_005_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_005_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+</Transform><Transform DEF="Strecke 1" scale="0.2 1 0.6020797289396149" rotation="0 1 0 -0.844153986113171" translation="23.0 0 16.0" center="0 0 -20">
+    <Transform DEF="Plane" translation="0 0 -10.0034" scale="5 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.2 0.2 0.2">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungR" translation="4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungR_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungR_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungL" translation="-4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungL_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungL_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_004" translation="4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_004_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_004_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_005" translation="-4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_005_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_005_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+</Transform><Transform DEF="Strecke 2" scale="0.2 1 0.070710678118655" rotation="0 1 0 -0.7853981633974483" translation="22.0 0 15.0" center="0 0 -20">
+    <Transform DEF="Plane" translation="0 0 -10.0034" scale="5 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.2 0.2 0.2">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungR" translation="4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungR_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungR_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungL" translation="-4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungL_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungL_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_004" translation="4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_004_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_004_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_005" translation="-4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_005_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_005_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+</Transform><Transform DEF="Strecke 3" scale="0.2 1 0.05" rotation="0 1 0 -1.5707963267948966" translation="21.0 0 15.0" center="0 0 -20">
+    <Transform DEF="Plane" translation="0 0 -10.0034" scale="5 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.2 0.2 0.2">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungR" translation="4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungR_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungR_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungL" translation="-4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungL_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungL_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_004" translation="4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_004_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_004_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_005" translation="-4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_005_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_005_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+</Transform><Transform DEF="Strecke 4" scale="0.2 1 0.070710678118655" rotation="0 1 0 -2.356194490192345" translation="20.0 0 16.0" center="0 0 -20">
+    <Transform DEF="Plane" translation="0 0 -10.0034" scale="5 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.2 0.2 0.2">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungR" translation="4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungR_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungR_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungL" translation="-4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungL_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungL_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_004" translation="4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_004_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_004_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_005" translation="-4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_005_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_005_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+</Transform><Transform DEF="Strecke 5" scale="0.2 1 0.2" rotation="0 1 0 -3.141592653589793" translation="20.0 0 20.0" center="0 0 -20">
+    <Transform DEF="Plane" translation="0 0 -10.0034" scale="5 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.2 0.2 0.2">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungR" translation="4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungR_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungR_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungL" translation="-4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungL_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungL_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_004" translation="4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_004_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_004_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_005" translation="-4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_005_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_005_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+</Transform><Transform DEF="Strecke 6" scale="0.2 1 0.447213595499958" rotation="0 1 0 -2.0344439357957027" translation="12.0 0 24.0" center="0 0 -20">
+    <Transform DEF="Plane" translation="0 0 -10.0034" scale="5 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.2 0.2 0.2">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungR" translation="4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungR_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungR_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungL" translation="-4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungL_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungL_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_004" translation="4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_004_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_004_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_005" translation="-4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_005_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_005_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+</Transform><Transform DEF="Strecke 7" scale="0.2 1 0.282842712474619" rotation="0 1 0 -0.7853981633974483" translation="8.0 0 20.0" center="0 0 -20">
+    <Transform DEF="Plane" translation="0 0 -10.0034" scale="5 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.2 0.2 0.2">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungR" translation="4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungR_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungR_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungL" translation="-4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungL_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungL_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_004" translation="4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_004_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_004_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_005" translation="-4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_005_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_005_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+</Transform><Transform DEF="Strecke 8" scale="0.2 1 0.4" rotation="0 1 0 -0.0" translation="8.0 0 12.0" center="0 0 -20">
+    <Transform DEF="Plane" translation="0 0 -10.0034" scale="5 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.2 0.2 0.2">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungR" translation="4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungR_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungR_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungL" translation="-4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungL_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungL_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_004" translation="4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_004_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_004_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_005" translation="-4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_005_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_005_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+</Transform><Transform DEF="Strecke 9" scale="0.2 1 0.447213595499958" rotation="0 1 0 -0.4636476090008061" translation="4.0 0 4.0" center="0 0 -20">
+    <Transform DEF="Plane" translation="0 0 -10.0034" scale="5 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.2 0.2 0.2">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungR" translation="4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungR_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungR_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungL" translation="-4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungL_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungL_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_004" translation="4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_004_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_004_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_005" translation="-4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_005_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_005_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+</Transform><Transform DEF="Strecke 10" scale="0.2 1 0.282842712474619" rotation="0 1 0 -0.7853981633974483" translation="0.0 0 0.0" center="0 0 -20">
+    <Transform DEF="Plane" translation="0 0 -10.0034" scale="5 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.2 0.2 0.2">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungR" translation="4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungR_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungR_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="SeitenbegrenzungL" translation="-4.85 1 -10.0034" scale="0.15 0.1 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material diffuseColor="0.8000001 0.6488125 0.04135252">
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="6 8 4 1 -1 1 4 11 10 -1 10 11 13 12 -1 12 13 0 2 -1 3 10 12 7 -1 11 5 9 13 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1 2 3 7 6 -1 6 7 5 4 -1 4 5 1 0 -1 2 6 4 0 -1 7 3 1 5 -1" solid="false">
+                <Coordinate DEF="SeitenbegrenzungL_Coord" point="-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1">
+                </Coordinate>
+                <TextureCoordinate DEF="SeitenbegrenzungL_TexCoord" point="0.625 1 0.375 0.25 0.375 1 0.125 0.5 0.625 0.25 0.875 0.5 0.375 0 0.125 0.75 0.625 0 0.875 0.75 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_004" translation="4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_004_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_004_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+    <Transform DEF="Plane_005" translation="-4.65 0.01 -10" scale="0.15 10 1" rotation="-1 -0 0 1.570796">
+        <Shape>
+            <Appearance>
+                <Material>
+                </Material>
+            </Appearance>
+            <IndexedFaceSet texCoordIndex="0 2 3 1 -1" creaseAngle="0.5" coordIndex="0 1 3 2 -1" solid="false">
+                <Coordinate DEF="Plane_005_Coord" point="-1 -1 0 1 -1 0 -1 1 0 1 1 0">
+                </Coordinate>
+                <TextureCoordinate DEF="Plane_005_TexCoord" point="0 0 0 1 1 0 1 1">
+                </TextureCoordinate>
+            </IndexedFaceSet>
+        </Shape>
+    </Transform>
+</Transform></Scene>
+</X3D>
