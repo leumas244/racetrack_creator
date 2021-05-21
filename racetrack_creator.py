@@ -22,6 +22,10 @@ TRACK_SEGMENT_WIDTH = 10
 #
 # CSV Input Format
 # x,z,length,angle,width
+#
+# angle is along x axis
+# => 0° = in x direction
+# => 90° = in z direction
 
 
 def parse_track_segment(segment_obj):
@@ -34,7 +38,7 @@ def parse_track_segment(segment_obj):
         'x_coord': float(tmp[0]),
         'z_coord': float(tmp[1]),
         'length': float(tmp[2]) / TRACK_SEGMENT_LENGTH,
-        'angle': float(tmp[3]),
+        'angle': 90 - float(tmp[3]),
         'width': float(tmp[4]) / TRACK_SEGMENT_WIDTH,
     }
 
