@@ -6,8 +6,9 @@ import numpy
 import copy
 from xml.dom import minidom
 
-TRACK_MODEL = "./models/track.x3d"
-TRACK_SEGMENT_MODEL = "./models/track_segment.xml"
+CAR_MODEL = './models/car.xml'
+TRACK_MODEL = './models/track.x3d'
+TRACK_SEGMENT_MODEL = './models/track_segment.xml'
 
 
 def parse_segment_def(segment_def):
@@ -27,6 +28,8 @@ def parse_segment_def(segment_def):
 
 
 def create_racetrack():
+    # Car Model Schema
+    car_model = minidom.parse(CAR_MODEL).childNodes[0]
     # Track Segment Model Schema
     track_segment_model = minidom.parse(TRACK_SEGMENT_MODEL).childNodes[0]
     # General Track Model Schema
@@ -39,12 +42,15 @@ def create_racetrack():
         # Parse track segments
         [track_segments.append(parse_segment_def(','.join(line))) for line in reader]
 
-    print("DEBUG: " + str(track_segments))
+    # Add car model
+    output_track_base.childNodes[1].childNodes[3].appendChild(car_model)
 
+    # Add track segments
     for idx, segment in enumerate(track_segments):
         # Construct segment model
         segment_model = copy.deepcopy(track_segment_model)
         segment_model.attributes['DEF'] = 'Strecke%d' % idx
+        # TODO: mirror track model
         segment_model.attributes['scale'] = '%f 1 %f' % (segment['width'] / 10, segment['length'] / 20)
         segment_model.attributes['rotation'] = '0 1 0 - %f' % numpy.arctan2(segment['x_rot'], segment['y_rot'])
         segment_model.attributes['translation'] = '%f 1 %f' % (segment['x_coord'], segment['y_coord'])
