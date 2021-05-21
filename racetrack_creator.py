@@ -12,8 +12,10 @@ TRACK_SEGMENT_MODEL = "./models/track_segment.xml"
 
 def parse_segment_def(segment_def):
     tmp = segment_def.split(',')
+    # Ensure valid row format
     assert len(tmp) == 6
 
+    # Convert fields to named map
     return {
         'x_coord': float(tmp[0]),
         'y_coord': float(tmp[1]),
