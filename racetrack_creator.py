@@ -9,21 +9,33 @@ from xml.dom import minidom
 CAR_MODEL = './models/car.xml'
 TRACK_MODEL = './models/track.x3d'
 TRACK_SEGMENT_MODEL = './models/track_segment.xml'
+TRACK_SEGMENT_LENGTH = 20
+TRACK_SEGMENT_WIDTH = 10
+
+# Coordinate System
+#   Y
+#   |
+#   |______ X
+#  /
+# /
+# Z
+#
+# CSV Input Format
+# x,z,length,angle,width
 
 
 def parse_track_segment(segment_obj):
     tmp = segment_obj.split(',')
     # Ensure valid row format
-    assert len(tmp) == 6
+    assert len(tmp) == 5
 
     # Convert fields to named map
     return {
         'x_coord': float(tmp[0]),
-        'y_coord': float(tmp[1]),
-        'length': float(tmp[2]),
-        'x_rot': float(tmp[3]),
-        'y_rot': float(tmp[4]),
-        'width': float(tmp[5]),
+        'z_coord': float(tmp[1]),
+        'length': float(tmp[2]) / TRACK_SEGMENT_LENGTH,
+        'angle': float(tmp[3]),
+        'width': float(tmp[4]) / TRACK_SEGMENT_WIDTH,
     }
 
 
@@ -52,9 +64,9 @@ def create_racetrack():
         segment_model = copy.deepcopy(track_segment_model)
         segment_model.attributes['DEF'] = 'Strecke %d' % idx
         # TODO: mirror track model
-        segment_model.attributes['scale'] = '%f 1 %f' % (segment['width'] / 10, segment['length'] / 20)
-        segment_model.attributes['rotation'] = '0 1 0 -%f' % numpy.arctan2(segment['x_rot'], segment['y_rot'])
-        segment_model.attributes['translation'] = '%f 0 %f' % (segment['x_coord'], segment['y_coord'])
+        segment_model.attributes['scale'] = '%f 1 %f' % (segment['width'], segment['length'])
+        segment_model.attributes['rotation'] = '0 1 0 %f' % numpy.radians(segment['angle'])
+        segment_model.attributes['translation'] = '%f 0 %f' % (segment['x_coord'], segment['z_coord'])
         # Append to track
         output_track_base.childNodes[1].childNodes[3].appendChild(segment_model)
 
