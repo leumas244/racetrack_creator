@@ -78,6 +78,8 @@ def create_racetrack():
     with open(output_file, 'w') as output:
         output_track_base.writexml(output)
 
+    print('Wrote car model and %d track segment models to %s' % (len(track_segments), output_file))
+
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
