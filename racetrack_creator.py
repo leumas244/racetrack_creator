@@ -11,8 +11,8 @@ TRACK_MODEL = './models/track.x3d'
 TRACK_SEGMENT_MODEL = './models/track_segment.xml'
 
 
-def parse_segment_def(segment_def):
-    tmp = segment_def.split(',')
+def parse_track_segment(segment_obj):
+    tmp = segment_obj.split(',')
     # Ensure valid row format
     assert len(tmp) == 6
 
@@ -40,20 +40,21 @@ def create_racetrack():
     with open(input_file, newline='') as track_def:
         reader = csv.reader(track_def, delimiter=' ', quotechar='|')
         # Parse track segments
-        [track_segments.append(parse_segment_def(','.join(line))) for line in reader]
+        [track_segments.append(parse_track_segment(','.join(line))) for line in reader]
 
     # Add car model
-    output_track_base.childNodes[1].childNodes[3].appendChild(car_model)
+    # TODO: uncomment when model is created in 'models/car.xml'
+    # output_track_base.childNodes[1].childNodes[3].appendChild(car_model)
 
     # Add track segments
     for idx, segment in enumerate(track_segments):
         # Construct segment model
         segment_model = copy.deepcopy(track_segment_model)
-        segment_model.attributes['DEF'] = 'Strecke%d' % idx
+        segment_model.attributes['DEF'] = 'Strecke %d' % idx
         # TODO: mirror track model
         segment_model.attributes['scale'] = '%f 1 %f' % (segment['width'] / 10, segment['length'] / 20)
-        segment_model.attributes['rotation'] = '0 1 0 - %f' % numpy.arctan2(segment['x_rot'], segment['y_rot'])
-        segment_model.attributes['translation'] = '%f 1 %f' % (segment['x_coord'], segment['y_coord'])
+        segment_model.attributes['rotation'] = '0 1 0 -%f' % numpy.arctan2(segment['x_rot'], segment['y_rot'])
+        segment_model.attributes['translation'] = '%f 0 %f' % (segment['x_coord'], segment['y_coord'])
         # Append to track
         output_track_base.childNodes[1].childNodes[3].appendChild(segment_model)
 
