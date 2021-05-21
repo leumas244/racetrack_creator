@@ -1,17 +1,5 @@
 #!/usr/bin/env python3
 
-import sys
-import csv
-import numpy
-import copy
-from xml.dom import minidom
-
-CAR_MODEL = './models/car.xml'
-TRACK_MODEL = './models/track.x3d'
-TRACK_SEGMENT_MODEL = './models/track_segment.xml'
-TRACK_SEGMENT_LENGTH = 20
-TRACK_SEGMENT_WIDTH = 10
-
 # Coordinate System
 #   Y
 #   |
@@ -26,6 +14,18 @@ TRACK_SEGMENT_WIDTH = 10
 # angle is along x axis
 # => 0° = in x direction
 # => 90° = in z direction
+
+import sys
+import csv
+import numpy
+import copy
+from xml.dom import minidom
+
+CAR_MODEL = './models/car.xml'
+TRACK_MODEL = './models/track.x3d'
+TRACK_SEGMENT_MODEL = './models/track_segment.xml'
+TRACK_SEGMENT_LENGTH = 20
+TRACK_SEGMENT_WIDTH = 10
 
 
 def parse_track_segment(segment_obj):
