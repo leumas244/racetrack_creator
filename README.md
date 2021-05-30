@@ -19,11 +19,7 @@ Z
 </pre>
 
 CSV Input Format  
-`x,z,length,angle,width`
-
-angle is along x axis  
-=> 0° = in x direction  
-=> 90° = in z direction
+`x,z,length,e_x,e_y,width`
 
 ### Notes
 Some non default packages where used, a virtual python environment might be beneficial

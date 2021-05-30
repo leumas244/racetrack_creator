@@ -9,11 +9,7 @@
 # Z
 #
 # CSV Input Format
-# x,z,length,angle,width
-#
-# angle is along x axis
-# => 0° = in x direction
-# => 90° = in z direction
+# x,z,length,e_x,e_y,width
 
 import sys
 import csv
@@ -31,14 +27,14 @@ TRACK_SEGMENT_WIDTH = 10
 def parse_track_segment(segment_obj):
     tmp = segment_obj.split(',')
     # Ensure valid row format
-    assert len(tmp) == 5
+    assert len(tmp) == 6
 
     # Convert fields to named map
     return {
         'x_coord': float(tmp[0]),
         'z_coord': float(tmp[1]),
         'length': float(tmp[2]) / TRACK_SEGMENT_LENGTH,
-        'angle': 90 - float(tmp[3]),
+        'angle': numpy.arctan2(float(tmp[3]), float(tmp[4])),
         'width': float(tmp[4]) / TRACK_SEGMENT_WIDTH,
     }
 
@@ -69,7 +65,7 @@ def create_racetrack():
         segment_model.attributes['DEF'] = 'Strecke %d' % idx
         # TODO: mirror track model
         segment_model.attributes['scale'] = '%f 1 %f' % (segment['width'], segment['length'])
-        segment_model.attributes['rotation'] = '0 1 0 %f' % numpy.radians(segment['angle'])
+        segment_model.attributes['rotation'] = '0 1 0 %f' % segment['angle']
         segment_model.attributes['translation'] = '%f 0 %f' % (segment['x_coord'], segment['z_coord'])
         # Append to track
         output_track_base.childNodes[1].childNodes[3].appendChild(segment_model)
